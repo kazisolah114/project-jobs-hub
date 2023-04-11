@@ -2,7 +2,7 @@ import React from 'react';
 import './JobDetailsPage.css'
 
 const JobDetailsPage = ({job}) => {
-    // console.log(job)
+    console.log(job)
     const {salary, job_title, phone, email, addressd, job_description, job_resposibilities, educational_requirements, experience} = job;
     return (
         <div>
