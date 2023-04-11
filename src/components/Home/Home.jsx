@@ -14,7 +14,8 @@ const Home = () => {
                         <button className='main-button'>Get Started</button>
                     </div>
                     <div className="home-image-content">
-                        <img src="../../../assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+                        <img src="https://i.ibb.co/9nxvwv3/P3-OLGJ1-copy-1.png" alt="" />
+                        
                     </div>
                 </div>
 

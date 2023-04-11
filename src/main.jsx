@@ -9,6 +9,9 @@ import './index.css'
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import JobDetails from './components/JobDetails/JobDetails';
+import Statics from './components/Statics/Statics';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
+import Blogs from './components/Blogs/Blogs';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +25,19 @@ const router = createBrowserRouter([
       {
         path: 'jobdetails/:id',
         element: <JobDetails></JobDetails>,
-        loader: ({params}) => fetch('featuredjobs.json')
+        loader: () => fetch('/featuredjobs.json')
+      },
+      {
+        path: 'statistics',
+        element: <Statics></Statics>
+      },
+      {
+        path: 'apjobs',
+        element: <AppliedJobs></AppliedJobs>
+      },
+      {
+        path: 'blogs',
+        element: <Blogs></Blogs>
       }
     ]
   }

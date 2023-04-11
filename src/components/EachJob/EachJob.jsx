@@ -15,8 +15,8 @@ const EachJob = ({job}) => {
                 <button>{availability_2}</button>
             </div>
             <div>
-                <p><img src="../../../assets/Icons/Frame-4.png" alt="" />{addressd}</p>
-                <p><img src="../../../assets/Icons/Frame.png" alt="" />Salary: {salary}</p>
+                <p><img src="https://i.ibb.co/QbxxZFG/Frame-4.png" alt="" />{addressd}</p>
+                <p><img src="https://i.ibb.co/M2j9hVC/Frame.png" alt="" />Salary: {salary}</p>
             </div>
             {/* <button className='main-button'>View Details</button> */}
             <Link to={`/jobdetails/${id}`}><button className='main-button'>View Details</button></Link>
