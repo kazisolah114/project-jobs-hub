@@ -1,0 +1,17 @@
+.job-category-sect{
+    padding: 70px 200px;
+    text-align: center;
+}
+.job-category-sect h2{
+    margin: 0;
+    font-size: 32px;
+}
+.job-category-sect p {
+    color: #757575;
+    margin: 5px 0;
+}
+.job-lists{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}

@@ -1,0 +1,18 @@
+.job-list {
+    background: #FAF8FF;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: left;
+}
+.job-list img {
+    margin-bottom: 8px;
+}
+.job-list h3 {
+    margin: 0px 0;
+    font-size: 16px;
+    color: #474747;
+}
+.job-list p {
+    font-size: 15px;
+}

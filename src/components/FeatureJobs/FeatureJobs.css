@@ -1,0 +1,20 @@
+.feature-jobs-sect {
+    padding: 70px 200px;
+}
+.feature-jobs-header {
+    text-align: center;
+}
+.feature-jobs-header h2 {
+    font-size: 32px;
+    margin: 0;
+}
+.feature-jobs-header p {
+    margin: 5px 0;
+    color: #757575;
+}
+.featured-jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 50px;
+    margin-top: 50px;
+}

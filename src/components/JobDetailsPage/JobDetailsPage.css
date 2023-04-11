@@ -1,0 +1,69 @@
+.job-details-banner {
+    padding: 60px 0;
+    background: #F9F9FF;
+    background-image: url('/assets/All Images/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+.job-details-banner h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+.details-container {
+    display: grid;
+    grid-template-columns: 5fr 2.3fr;
+    gap: 30px;
+    padding: 70px 200px;
+}
+.details-text-content {
+    text-align: justify;
+}
+.details-text-content p {
+    color: #757575;
+}
+.details-text-content p span {
+    color: #1A1919;
+    font-weight: 600;
+}
+.details-info-content {
+    background: #F3F2FF;
+    padding: 25px;
+    border-radius: 5px;
+}
+.details-info-content h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #1A1919;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 8px;
+}
+.details-info-content ul {
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+.details-info-content ul li{
+    list-style: none;
+    color: #757575;
+}
+.details-info-content ul li span{
+    color: #1A1919;
+}
+.details-info-content ul li img {
+    width: 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+.details-button {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}

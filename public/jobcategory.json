@@ -1,0 +1,23 @@
+[
+    {
+      "image": "../assets/Icons/chip 1.png",
+      "title": "Software Engineer",
+      "availableJobs": 10
+    },
+    {
+      "image": "../assets/Icons/social-media 1.png",
+      "title": "Marketing Manager",
+      "availableJobs": 5
+    },
+    {
+      "image": "../assets/Icons/business 1.png",
+      "title": "Graphic Designer",
+      "availableJobs": 7
+    },
+    {
+      "image": "../assets/Icons/accounts 1.png",
+      "title": "Data Analyst",
+      "availableJobs": 3
+    }
+  ]
+  

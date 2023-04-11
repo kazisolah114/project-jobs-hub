@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9F9FF;
+    padding: 0 200px;
+}
+.home-text-content{}
+.home-text-content h2 {
+    margin: 0;
+    font-size: 53px;
+    color: #1A1919;
+    line-height: 65px;
+}
+.home-text-content h2 span{
+    color: #9873FF;
+}
+.home-text-content p {
+    margin-top: 10px;
+    color: #757575;
+}
+.home-image-content {
+    margin-bottom: -5px;
+}
+.home-image-content img{
+    width: 100%;
+}
