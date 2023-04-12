@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import JobDetailsPage from '../JobDetailsPage/JobDetailsPage';
+import { addToDb } from '../../Utilities/fakeDB';
 
 const JobDetails = () => {
     const jobs = useLoaderData();
@@ -13,9 +14,13 @@ const JobDetails = () => {
         }
     }, [])
     // console.log(job)
+    const handleApplyJobBtn = (id) => {
+        // console.log(id);
+        addToDb(id);
+    }
     return (
         <div>
-            <JobDetailsPage key={job.id} job={job}></JobDetailsPage>
+            <JobDetailsPage key={job.id} job={job} handleApplyJobBtn={handleApplyJobBtn}></JobDetailsPage>
         </div>
     );
 };

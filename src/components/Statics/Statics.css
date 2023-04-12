@@ -1,0 +1,9 @@
+.chart-section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+.chart-section h2 {
+    margin: 40px 0;
+    font-size: 20px;
+}

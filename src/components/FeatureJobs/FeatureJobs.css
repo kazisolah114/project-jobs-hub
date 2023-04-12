@@ -18,3 +18,10 @@
     gap: 20px 50px;
     margin-top: 50px;
 }
+.feature-jobs-button-sect {
+    text-align: center;
+    margin-top: 15px;
+}
+.displayButton{
+    display: none;
+}

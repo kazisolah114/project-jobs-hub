@@ -1,9 +1,9 @@
 import React from 'react';
 import './JobDetailsPage.css'
 
-const JobDetailsPage = ({job}) => {
+const JobDetailsPage = ({job, handleApplyJobBtn}) => {
     // console.log(job)
-    const {salary, job_title, phone, email, addressd, job_description, job_resposibilities, educational_requirements, experience} = job;
+    const {salary, job_title, phone, email, addressd, job_description, job_resposibilities, educational_requirements, experience, id} = job;
     return (
         <div>
             <div className="job-details-banner">
@@ -32,7 +32,7 @@ const JobDetailsPage = ({job}) => {
                             <li><img src="https://i.ibb.co/QbxxZFG/Frame-4.png" alt="" /><span>Address: </span>{addressd}</li>
                         </ul>
                     </div>
-                    <button className='details-button'>Apply Now</button>
+                    <button onClick={() => handleApplyJobBtn(id)} className='details-button'>Apply Now</button>
                 </div>
                 
             </div>
