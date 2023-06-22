@@ -6,7 +6,7 @@ const addToDb = (id) => {
     if(storedJobs) {
         appliedJobs = JSON.parse(storedJobs);
     }
-    // add quantity of applied job
+    // add quantity of applied jobs
     let quantity = appliedJobs[id]
     if(quantity) {
         quantity = quantity + 1;

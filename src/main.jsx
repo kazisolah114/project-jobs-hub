@@ -12,6 +12,8 @@ import JobDetails from './components/JobDetails/JobDetails';
 import Statics from './components/Statics/Statics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
+import Error from './components/Error/Error';
+
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'blogs',
         element: <Blogs></Blogs>
+      },
+      {
+        path: '',
+        element: <div>404</div>
       }
     ]
   }
